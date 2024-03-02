@@ -4867,7 +4867,7 @@ input[type="button"].btn-block {
 }
 
 .nav-link.disabled {
-  color: #6c757d;
+  color: #fff;
   pointer-events: none;
   cursor: default;
 }
@@ -4890,6 +4890,8 @@ input[type="button"].btn-block {
 .nav-tabs .nav-link:focus {
   border-color: #eaf0fc #eaf0fc #dee2e6;
 }
+
+
 
 .nav-tabs .nav-link.disabled {
   color: #6c757d;
@@ -12487,8 +12489,12 @@ pre {
   color: var(--white);
 }
 
+.nav-link:hover {
+  color: #6BD1FF !important;
+}
+
 .navbar .navbar-nav .nav-link.active {
-  color: #fff;
+  color: #6BD1FF;
 }
 
 .navbar .navbar-nav .btn {
