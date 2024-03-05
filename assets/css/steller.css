@@ -102,6 +102,7 @@ h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  text-align: justify;
 }
 
 abbr[title],
@@ -3062,10 +3063,14 @@ textarea.form-control.is-invalid {
   text-decoration: none;
 }
 
+.btn  {
+  color: #051933 !important;
+}
+
 .btn:focus,
 .btn.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(255, 122, 87, 0.25);
+  box-shadow: #6fd0fd;
 }
 
 .btn.disabled,
@@ -3084,15 +3089,15 @@ fieldset:disabled a.btn {
   border-color: #6BD1FF;
 }
 
-.btn-primary:hover {
+.btn-primary:hover { 
   color: #fff;
-  background-color: #ff5c31;
-  border-color: #ff5224;
+  background-color: #5acbff;
+  border-color: #5acbff;
 }
 
 .btn-primary:focus,
 .btn-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(222, 109, 80, 0.5);
+  box-shadow: #86d9ff;
 }
 
 .btn-primary.disabled,
@@ -3106,14 +3111,8 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled).active,
 .show>.btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #ff5224;
-  border-color: #ff4817;
-}
-
-.btn-primary:not(:disabled):not(.disabled):active:focus,
-.btn-primary:not(:disabled):not(.disabled).active:focus,
-.show>.btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(222, 109, 80, 0.5);
+  background-color: #6BD1FF;
+  border-color: #6BD1FF;
 }
 
 .btn-secondary {
@@ -3345,7 +3344,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-dark {
-  color: #fff;
+  color: #fff !important;
   background-color: #343a40;
   border-color: #343a40;
 }
@@ -4010,6 +4009,10 @@ input[type="button"].btn-block {
   color: #6c757d;
   white-space: nowrap;
 }
+
+.header p {
+  color: #2A7AE4;
+} 
 
 .dropdown-item-text {
   display: block;
@@ -5000,11 +5003,11 @@ input[type="button"].btn-block {
 }
 
 .navbar-brand h1 {
-  color: white;
+  color: #FCFCFC;
 }
 
 #color-span {
-  color: red;
+  color: #2A7AE4;
 }
 
 .navbar-brand:hover,
@@ -5079,6 +5082,8 @@ input[type="button"].btn-block {
   content: "";
   background: no-repeat center center;
   background-size: 100% 100%;
+  background-color: #6BD1FF;
+  border-radius: 10%;
 }
 
 @media (max-width: 575.98px) {
@@ -12118,6 +12123,7 @@ h6 {
 .subtitle {
   font-size: calc(13px + (15 - 13) * ((100vw - 320px) / (1200 - 320)));
   opacity: .8;
+  color: #6BD1FF;
 }
 
 @media (min-width: 992px) {
@@ -12167,6 +12173,7 @@ pre {
 
 .btn.btn-primary {
   color: #fff;
+  background-color: #6BD1FF;
 }
 
 .btn.rounded {
@@ -12366,7 +12373,8 @@ pre {
   max-width: 1000px;
   margin: 0 auto 150px;
   z-index: 99;
-  background: #fff;
+  background: #092D5D;
+
 }
 
 .contact .form {
@@ -12476,7 +12484,7 @@ pre {
   min-height: 80px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  background: #fff;
+  background: #0B182C;
   
 }
 
@@ -12787,3 +12795,4 @@ pre {
 .section.bg-gray {
   background: white;
 }
+
