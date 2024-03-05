@@ -4967,6 +4967,7 @@ input[type="button"].btn-block {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+
 }
 
 .navbar>.container,
@@ -4996,6 +4997,14 @@ input[type="button"].btn-block {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+}
+
+.navbar-brand h1 {
+  color: white;
+}
+
+#color-span {
+  color: red;
 }
 
 .navbar-brand:hover,
@@ -12468,6 +12477,7 @@ pre {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   background: #fff;
+  
 }
 
 .navbar .navbar-brand img {
@@ -12547,7 +12557,7 @@ pre {
 }
 
 .page-footer {
-  background: #fcfdff;
+  background: #0B182C;
 }
 
 .page-footer .row {
