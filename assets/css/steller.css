@@ -5086,6 +5086,12 @@ input[type="button"].btn-block {
   border-radius: 10%;
 }
 
+.fa-icons {
+  color: #6BD1FF;
+  margin-left: 5px;
+  display: inline-block;
+}
+
 .fa-bars {
   color: rgb(233, 230, 230);
 }
