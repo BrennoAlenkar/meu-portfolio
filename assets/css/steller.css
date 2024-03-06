@@ -76,7 +76,7 @@ body {
   line-height: 1.5;
   color: #495057;
   text-align: left;
-  background-color: #0B182C;
+  background-image: linear-gradient(to right, #0B182C, #101926);
 }
 
 [tabindex="-1"]:focus {
@@ -5082,8 +5082,12 @@ input[type="button"].btn-block {
   content: "";
   background: no-repeat center center;
   background-size: 100% 100%;
-  background-color: #6BD1FF;
+  color: #e6e6e6;
   border-radius: 10%;
+}
+
+.fa-bars {
+  color: rgb(233, 230, 230);
 }
 
 @media (max-width: 575.98px) {
@@ -12179,7 +12183,7 @@ pre {
 }
 
 .btn.btn-primary {
-  color: #fff;
+  color: #051933 !important;
   background-color: #6BD1FF;
 }
 
