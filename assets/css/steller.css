@@ -12159,6 +12159,13 @@ pre {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   text-decoration: none;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.fa-brands {
+  text-align: center;
+  font-size: 1.2em;
 }
 
 .socials .social-item:hover {
