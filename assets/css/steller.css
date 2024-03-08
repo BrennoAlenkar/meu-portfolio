@@ -76,7 +76,7 @@ body {
   line-height: 1.5;
   color: #495057;
   text-align: left;
-  background-image: linear-gradient(to right, #0B182C, #101926);
+  background: #13131F;
 }
 
 [tabindex="-1"]:focus {
@@ -3063,7 +3063,7 @@ textarea.form-control.is-invalid {
   text-decoration: none;
 }
 
-.btn  {
+.btn {
   color: #051933 !important;
 }
 
@@ -3089,7 +3089,7 @@ fieldset:disabled a.btn {
   border-color: #6BD1FF;
 }
 
-.btn-primary:hover { 
+.btn-primary:hover {
   color: #fff;
   background-color: #5acbff;
   border-color: #5acbff;
@@ -4012,7 +4012,7 @@ input[type="button"].btn-block {
 
 .header p {
   color: #2A7AE4;
-} 
+}
 
 .dropdown-item-text {
   display: block;
@@ -5548,6 +5548,10 @@ input[type="button"].btn-block {
 .card-subtitle {
   margin-top: -0.375rem;
   margin-bottom: 0;
+}
+
+.sub-color {
+  color: #FFFFFF !important;
 }
 
 .card-text:last-child {
@@ -12112,7 +12116,7 @@ h6 {
 
 .title {
   font-size: calc(18px + (25 - 18) * ((100vw - 320px) / (1200 - 320)));
-  color: #fff;
+  color: #6BD1FF;
 }
 
 @media (min-width: 992px) {
@@ -12503,7 +12507,7 @@ pre {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   background: #0B182C;
-  
+
 }
 
 .navbar .navbar-brand img {
@@ -12535,6 +12539,10 @@ pre {
 
 .navbar .navbar-nav .btn {
   min-width: 120px;
+}
+
+#texto {
+  color: gray;
 }
 
 .navbar.affix {
@@ -12813,4 +12821,3 @@ pre {
 .section.bg-gray {
   background: white;
 }
-
