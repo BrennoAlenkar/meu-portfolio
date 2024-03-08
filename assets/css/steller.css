@@ -12126,7 +12126,7 @@ h6 {
 }
 
 .section-title {
-  font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
+  font-size: 1.3em !important;
 }
 
 @media (min-width: 992px) {
@@ -12136,9 +12136,10 @@ h6 {
 }
 
 .subtitle {
-  font-size: calc(13px + (15 - 13) * ((100vw - 320px) / (1200 - 320)));
+  font-size: 2em !important;
   opacity: .8;
   color: #6BD1FF;
+
 }
 
 @media (min-width: 992px) {
