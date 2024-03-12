@@ -3091,7 +3091,7 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #5acbff;
+  background-color: #31beff !important;
   border-color: #5acbff;
 }
 
@@ -5551,7 +5551,7 @@ input[type="button"].btn-block {
 }
 
 .sub-color {
-  color: #FFFFFF !important;
+  color: #FCFCFC !important;
 }
 
 .card-text:last-child {
@@ -12126,7 +12126,7 @@ h6 {
 }
 
 .section-title {
-  font-size: 1.3em !important;
+  font-size: 1.1em !important;
 }
 
 @media (min-width: 992px) {
@@ -12231,7 +12231,7 @@ pre {
 }
 
 .img-wrapper .overlay {
-  background: rgba(255, 122, 87, 0.7);
+  background: rgba(160, 216, 230, .7);
   position: absolute;
   left: 0;
   bottom: 100%;
@@ -12272,6 +12272,10 @@ pre {
   text-align: center;
   color: #fff;
   text-decoration: none;
+}
+
+.fa-magnifying-glass {
+  font-size: 1.3em;
 }
 
 .img-wrapper .overlay .overlay-infos a:hover {
@@ -12325,7 +12329,7 @@ pre {
 }
 
 .custom-card .card-body {
-  padding: 55px 0;
+  padding: 85px 0;
 }
 
 .custom-card .card-body i {
@@ -12507,7 +12511,7 @@ pre {
   min-height: 80px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  background: #0B182C;
+  background-image: linear-gradient(to bottom, #0B182C, #13131F) 
 
 }
 
@@ -12779,6 +12783,20 @@ pre {
   font-size: 2.4rem;
   font-weight: bold;
   opacity: .8;
+}
+
+.title_nome {
+  color: #6BD1FF;
+  font-size: 2.1em;
+}
+
+.subtitle_tamanho{
+  color: gray;
+  font-size: 1.2em;
+}
+
+.link_principal:hover {
+  color: #fff;
 }
 
 .header-mini {
