@@ -76,7 +76,7 @@ body {
   line-height: 1.5;
   color: #495057;
   text-align: left;
-  background: #13131F;
+  background-image: linear-gradient(to right, #0B182C, #13131F) 
 }
 
 [tabindex="-1"]:focus {
@@ -12511,8 +12511,7 @@ pre {
   min-height: 80px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  background-image: linear-gradient(to bottom, #0B182C, #13131F) 
-
+  background-image: linear-gradient(to right, #0B182C, #13131F)
 }
 
 .navbar .navbar-brand img {
@@ -12790,7 +12789,7 @@ pre {
   font-size: 2.1em;
 }
 
-.subtitle_tamanho{
+.subtitle_tamanho {
   color: gray;
   font-size: 1.2em;
 }
