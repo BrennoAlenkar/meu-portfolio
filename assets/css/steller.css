@@ -12329,7 +12329,7 @@ pre {
 }
 
 .custom-card .card-body {
-  padding: 85px 0;
+  padding: 40px 0;
 }
 
 .custom-card .card-body i {
@@ -12797,6 +12797,7 @@ pre {
 
 .link_principal:hover {
   color: #fff;
+  text-decoration: none;
 }
 
 .header-mini {
