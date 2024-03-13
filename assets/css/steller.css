@@ -3091,13 +3091,13 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #31beff !important;
-  border-color: #5acbff;
+  background-color: #8e08f5!important;
+  border-color: #8300E9;
 }
 
 .btn-primary:focus,
 .btn-primary.focus {
-  box-shadow: #86d9ff;
+  box-shadow: #8300E9;
 }
 
 .btn-primary.disabled,
@@ -5544,6 +5544,10 @@ input[type="button"].btn-block {
 
 .card-title {
   margin-bottom: 0.75rem;
+}
+
+.teste {
+  color: #8300E9 !important;
 }
 
 .card-subtitle {
@@ -9665,6 +9669,10 @@ button.bg-dark:focus {
   margin: 1rem !important;
 }
 
+.mt-3 {
+  color: #8E08F5;
+}
+
 .mt-3,
 .my-3 {
   margin-top: 1rem !important;
@@ -12201,7 +12209,7 @@ pre {
 }
 
 .btn.btn-primary {
-  color: #051933 !important;
+  color: #FFFFFF!important;
   background-color: #8300E9;
 }
 
@@ -12237,7 +12245,7 @@ pre {
 }
 
 .img-wrapper .overlay {
-  background: rgba(160, 216, 230, .7);
+  background: rgba(190, 100, 259, .7);
   position: absolute;
   left: 0;
   bottom: 100%;
