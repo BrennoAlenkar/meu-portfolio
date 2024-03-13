@@ -12794,6 +12794,10 @@ pre {
   font-size: 1.2em;
 }
 
+.link_principal {
+  color: gray;
+}
+
 .link_principal:hover {
   color: #fff;
   text-decoration: none;
