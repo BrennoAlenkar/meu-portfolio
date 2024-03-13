@@ -12797,8 +12797,18 @@ pre {
 }
 
 .link_principal:hover {
-  color: #fff;
   text-decoration: none;
+  color: #fff;
+}
+
+.link_footer {
+  color: #fff;
+}
+
+.link_footer:hover {
+  color: #6BD1FF;
+  text-decoration: none;
+  text-decoration: underline;
 }
 
 .header-mini {
