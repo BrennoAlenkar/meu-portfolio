@@ -12417,6 +12417,7 @@ pre {
   margin: 0 auto 150px;
   z-index: 99;
   background-color: #2A2A2A;
+  color: #767C93;
 
 }
 
@@ -12816,7 +12817,7 @@ pre {
 
 .subtitle_tamanho {
   color: #767C93;
-  font-size: 1.2em;
+  font-size: 1.6em;
 }
 
 .link_principal {
