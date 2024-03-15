@@ -5540,7 +5540,9 @@ input[type="button"].btn-block {
   flex: 1 1 auto;
   padding: 1.25rem;
   background-color: #2A2A2A;
+  
 }
+
 
 .card-title {
   margin-bottom: 0.75rem;
