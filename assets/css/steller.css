@@ -5556,7 +5556,7 @@ input[type="button"].btn-block {
 }
 
 .sub-color {
-  color: #FCFCFC !important;
+  color: #ABABAB !important;
 }
 
 .card-text:last-child {
@@ -12560,7 +12560,7 @@ pre {
 }
 
 #texto {
-  color: gray;
+  color: #767C93;
 }
 
 #portfolio {
@@ -12614,7 +12614,7 @@ pre {
 
 .page-footer {
   background-color: #2A2A2A;
-  border-bottom: 20px solid #1C1C1C;
+  border-bottom: 15px solid #1C1C1C;
 }
 
 #service {
@@ -12813,7 +12813,7 @@ pre {
 }
 
 .subtitle_tamanho {
-  color: gray;
+  color: #767C93;
   font-size: 1.2em;
 }
 
