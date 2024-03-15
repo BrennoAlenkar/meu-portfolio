@@ -12827,6 +12827,7 @@ pre {
 
 .link_footer {
   color: #fff;
+  text-decoration: underline;
 }
 
 .link_footer:hover {
