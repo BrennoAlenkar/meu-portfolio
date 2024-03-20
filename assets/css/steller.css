@@ -5543,7 +5543,6 @@ input[type="button"].btn-block {
   
 }
 
-
 .card-title {
   margin-bottom: 0.75rem;
 }
@@ -12563,7 +12562,9 @@ pre {
 }
 
 #texto {
-  color: #767C93;
+  color:  #208CFC;
+  font-size: 2.1em;
+  font-weight: 600;
 }
 
 #portfolio {
@@ -12723,7 +12724,7 @@ pre {
   width: 100%;
   max-width: 620px;
   -webkit-filter: drop-shadow(0 -4px 20px rgba(206, 212, 218, 0.4));
-  filter: drop-shadow(0 -4px 20px rgba(206, 212, 218, 0.4));
+  filter: drop-shadow(0 -4px 20px rgba(0, 0, 0, 0.4));
   margin-left: auto;
   margin-right: -2rem;
 }
